@@ -10,26 +10,27 @@
 | Attribute  | Type | Value  | Requirement Level |
 |---|---|---|---|
 | `event.name` | string | `resource` | Required |
-| `event.domain | string | `browser` | Required |
+| `event.domain` | string | `browser` | Required |
 <!-- endsemconv -->
 
-Additional attributes are mapped from the (Resource Timing API)[https://www.w3.org/TR/resource-timing-2/#sec-performanceresourcetiming].
+Additional attributes are mapped from the [Resource Timing API](https://www.w3.org/TR/resource-timing-2/#sec-performanceresourcetiming).
 
 This list is not exhaustive and is listed as an example. All numeric and string values thar are provided by the Resource Timing API SHOULD be included.
 
 | Attribute  | Type | Example  | Requirement Level |
 |---|---|---|---|
-| `redirectStart` | numeric | 0 | Optional |
-| `redirectEnd` | numeric | 0 | Optional |
-| `fetchStart` | numeric | 0 | Optional |
-| `domainLookupStart` | numeric | 0 | Optional |
-| `domainLookupEnd` | numeric | 0 | Optional |
-| `connectStart` | numeric | 0 | Optional |
-| `connectEnd` | numeric | 0 | Optional |
-| `secureConnectionStart` | numeric | 0 | Optional |
-| `requestStart` | numeric | 0 | Optional |
-| `responseStart` | numeric | 0 | Optional |
-| `responseEnd` | numeric | 0 | Optional |
-| `transferSize` | numeric | 0 | Optional |
-| `encodedBodySize` | numeric | 0 | Optional |
-| `decodedBodySize` | numeric | 0 | Optional |
+| `name` | string | `https://example.com/a/b/` | Recommended |
+| `redirectStart` | double | 0 | Recommended |
+| `redirectEnd` | double | 0 | Recommended |
+| `fetchStart` | double | 27.80000112 | Recommended |
+| `domainLookupStart` | double | 33.5 | Recommended |
+| `domainLookupEnd` | double | 60.5999 | Recommended |
+| `connectStart` | double | 60.5999 | Recommended |
+| `connectEnd` | double | 113.7 | Recommended |
+| `secureConnectionStart` | double | 72.8 | Recommended |
+| `requestStart` | double | 114.3 | Recommended |
+| `responseStart` | double | 738.8 | Recommended |
+| `responseEnd` | double | 790.599 | Recommended |
+| `transferSize` | double | 71967 | Recommended |
+| `encodedBodySize` | double | 71667 | Recommended |
+| `decodedBodySize` | double | 364537 | Recommended |
