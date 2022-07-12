@@ -8,7 +8,7 @@
 
 <!-- semconv browser -->
 | Attribute  | Type | Value  | Requirement Level |
-|---|---|---|---|---|
+|---|---|---|---|
 | `event.name` | string | `navigation` | Required |
 | `event.domain | string | `browser` | Required |
 <!-- endsemconv -->
@@ -19,7 +19,7 @@ This list is not exhaustive and is listed as an example. All numeric and string 
 
 
 | Attribute  | Type | Example  | Requirement Level |
-|---|---|---|---|---|
+|---|---|---|---|
 | `unloadEventStart` | numeric | 0 | Optional |
 | `unloadEventEnd` | numeric | 0 | Optional |
 | `domInteractive` | numeric | 0 | Optional |

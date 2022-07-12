@@ -8,7 +8,7 @@
 
 <!-- semconv browser -->
 | Attribute  | Type | Value  | Requirement Level |
-|---|---|---|---|---|
+|---|---|---|---|
 | `event.name` | string | `resource` | Required |
 | `event.domain | string | `browser` | Required |
 <!-- endsemconv -->
@@ -18,7 +18,7 @@ Additional attributes are mapped from the (Resource Timing API)[https://www.w3.o
 This list is not exhaustive and is listed as an example. All numeric and string values thar are provided by the Resource Timing API SHOULD be included.
 
 | Attribute  | Type | Example  | Requirement Level |
-|---|---|---|---|---|
+|---|---|---|---|
 | `redirectStart` | numeric | 0 | Optional |
 | `redirectEnd` | numeric | 0 | Optional |
 | `fetchStart` | numeric | 0 | Optional |
