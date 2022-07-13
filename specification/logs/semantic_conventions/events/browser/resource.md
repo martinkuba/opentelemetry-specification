@@ -6,6 +6,8 @@
 
 **Description**: Represents a resource observed by the browser.
 
+The following attributes MUST be set with these predefined values:
+
 <!-- semconv browser -->
 | Attribute  | Type | Value  | Requirement Level |
 |---|---|---|---|

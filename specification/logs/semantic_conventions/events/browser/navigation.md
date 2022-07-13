@@ -6,6 +6,8 @@
 
 **Description**: Represents a browser navigation event.
 
+The following attributes MUST be set with these predefined values:
+
 <!-- semconv browser -->
 | Attribute  | Type | Value  | Requirement Level |
 |---|---|---|---|
